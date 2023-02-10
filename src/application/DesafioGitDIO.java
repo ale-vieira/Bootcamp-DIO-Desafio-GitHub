@@ -10,10 +10,10 @@ public class DesafioGitDIO {
 		
 		System.out.println("Digite seu nome: ");
 		String nome = sc.nextLine();
-		System.out.println("Digite sua cidade: ");
-		String cidade = sc.nextLine();
+		System.out.println("Digite sua idade: ");
+		int idade = sc.nextInt();
 		
-		System.out.println("Olá, meu nome é " + nome + ", e moro em " + cidade + ".");
+		System.out.println("Olá, meu nome é " + nome + ", e tenho " + idade + " anos.");
 		
 		sc.close();
 	}
